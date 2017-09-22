@@ -45,28 +45,29 @@ h1{
 
 .rotten{
   float: left;
-  padding-right: 5px;
+  margin-right: 5px;
 }
 
 .fresh{
   float: left;
-  padding-right: 5px;
+  margin-right: 5px;
 }
 
 .reviews{
-  margin: auto;
+  margin: 0;
   border: 2px solid gray;
   background-color: #E1D697;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .r-separation{
-  padding: 8px;
+  padding: 0px;
 }
 
 .q-reviews{
   font-size: 8pt;
   font-weight: bold;
-  padding-left: 5px;
 }
 
 .person{
@@ -77,6 +78,7 @@ h1{
 .p-person{
   font-size: 8pt;
   font-family: Verdana, Tahoma, sans-serif;
+  font-style: italic;
 }
     /*left-column*/
     /*right-column*/
@@ -112,7 +114,8 @@ h1{
   float: right;
   width: 250px;
   background-color: #A2B964;
-  margin: 0;
+  margin: auto;
+  /*height: 930px;*/
 }
 
 #dl-right{
@@ -132,7 +135,12 @@ h1{
 }
 
 #rottenbig{
+  float: left;
   height: 83px;
+}
+
+#p32and88{
+  vertical-align: middle;
 }
 
 #percent32{
@@ -140,22 +148,20 @@ h1{
   font-weight: bold;
   font-family: Verdana, Tahoma, sans-serif;
   color: red;
-  vertical-align: super;
 }
 
 #rt-88{
   font-size: 8pt;
   color: white;
   font-family: Verdana, Tahoma, sans-serif;
-  vertical-align: super;
 }
     /*left-middle-side*/
 #left-middle-side{
+  float: left;
   overflow: hidden; /*使得left-column的margin以此为参照物*/
   position: relative;
   margin-right: 0px;
   width: 550px;
-  height: 825px;
 }
       /*left-column*/
 #left-column{
@@ -175,14 +181,18 @@ h1{
     /*downside*/
 #downside{
   background-color: #A2B964;
-  position: relative;
-  bottom: 0px;
-  margin: 0px;
   padding: 5px;
   text-align: center;
+  clear: right;
+  font-size: 8pt;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 /*W3C*/
 #W3C{
+  position: relative;
+  bottom: 5px;
+  right: 0px;
+  position: fixed;
   float: right;
 }
