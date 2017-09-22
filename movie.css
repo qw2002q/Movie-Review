@@ -170,6 +170,10 @@ h1{
   padding-top: 2%;
   width: 47%;
 }
+
+#stinks{
+  overflow: hidden;
+}
       /*right-column*/
 #right-column{
   overflow: hidden; /*this line is important for no bug for left-side float*/
